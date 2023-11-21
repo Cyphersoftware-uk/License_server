@@ -1,0 +1,6 @@
+@base_url = "http://localhost:3000"
+
+
+## Attempt to login
+GET {{base_url}}/login
+HEAD Content-Type: application/json, Accept: application/json, x-
